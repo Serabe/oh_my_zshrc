@@ -24,3 +24,4 @@ alias sl=ls # often screw this up
 
 alias afind='ack-grep -il'
 
+alias files4dir='find . -mindepth 2 | awk -F/ {'print $2'} | uniq -c'
