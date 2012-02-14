@@ -13,3 +13,4 @@ export PAGER="less"
 export LESS="-R"
 
 export LC_CTYPE=$LANG
+export PATH=$PATH:/usr/texbin:/Users/sergio/programming/android-sdk-macosx/tools:/Users/sergio/programming/android-sdk-macosx/platform-tools
