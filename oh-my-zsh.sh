@@ -91,3 +91,6 @@ else
     fi
   fi
 fi
+
+# Vim mode for the win!
+set -o vi
