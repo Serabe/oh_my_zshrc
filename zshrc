@@ -26,11 +26,13 @@ ZSH_THEME="juanghurtado"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(bower brew bundler cabal capistrano coffee gem git heroku lein node npm postgres pow rails rvm)
+
+plugins=(brew bundler cabal capistrano coffee gem git heroku lein node npm postgres pow rails rvm)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+
 export PATH=/usr/local/bin:/bin:/usr/local/sbin:/sbin:/usr/bin:/usr/X11/bin:/usr/texbin:$HOME/bin:$HOME/.cask/bin:$PATH
 
 # Node.js
@@ -53,10 +55,3 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export SPREE_DEV=~/programming/cc/spree
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-
-# Go
-export GOPATH=$HOME/programming/go
-PATH=$PATH:$GOPATH/bin
-
-# PHP
-PHP_AUTOCONF=/usr/local/Cellar/nginx/1.4.4
