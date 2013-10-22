@@ -46,7 +46,6 @@ alias calibre-server="/Applications/calibre.app/Contents/MacOS/calibre-server --
 [[ -s "$HOME/.nvm/nvm.sh" ]] && source "$HOME/.nvm/nvm.sh" # This loads NVM
 PATH=$HOME/.nvm/bin:$PATH
 
-
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
@@ -54,10 +53,3 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export SPREE_DEV=~/programming/cc/spree
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-
-# Go
-export GOPATH=$HOME/programming/go
-PATH=$PATH:$GOPATH/bin
-
-# PHP
-PHP_AUTOCONF=/usr/local/Cellar/nginx/1.4.4
