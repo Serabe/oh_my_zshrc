@@ -40,7 +40,6 @@ export PATH=$HOME/bin:/usr/local/bin:/bin:/usr/local/sbin:/sbin:/usr/bin:/usr/X1
 export NODE_PATH="/usr/local/lib/node_modules:/usr/local/lib/node"
 export SLIMERJSLAUNCHER="/Applications/Firefox.app/Contents/MacOS/firefox"
 
-
 alias calibre-server="/Applications/calibre.app/Contents/MacOS/calibre-server --username=sergio --password=30031987 --port=9903 --with-library=/Users/arbeo/Google\ Drive/Biblioteca\ de\ calibre/"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session
