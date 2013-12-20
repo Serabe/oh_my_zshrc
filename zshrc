@@ -5,8 +5,9 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-#ZSH_THEME="phillips"
+# ZSH_THEME="phillips"
 ZSH_THEME="juanghurtado"
+# ZSH_THEME="arialdo-granzestyle"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -30,7 +31,7 @@ plugins=(bower brew bundler cabal capistrano coffee gem git heroku lein node npm
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/local/bin:/bin:/usr/local/sbin:/sbin:/usr/bin:/usr/X11/bin:/usr/texbin:$HOME/bin
+export PATH=/usr/local/bin:/bin:/usr/local/sbin:/sbin:/usr/bin:/usr/X11/bin:/usr/texbin:$HOME/bin:$HOME/.cask/bin:$PATH
 
 # Node.js
 
@@ -38,7 +39,7 @@ export PATH=/usr/local/bin:/bin:/usr/local/sbin:/sbin:/usr/bin:/usr/X11/bin:/usr
 export NODE_PATH="/usr/local/lib/node_modules:/usr/local/lib/node"
 export SLIMERJSLAUNCHER="/Applications/Firefox.app/Contents/MacOS/firefox"
 
-alias calibre-server="/Applications/calibre.app/Contents/MacOS/calibre-server --username=sergio --password=30031987 --port=9903 --with-library=/Users/sergio/Google\ Drive/Biblioteca\ de\ calibre/"
+alias calibre-server="/Applications/calibre.app/Contents/MacOS/calibre-server --username=sergio --password=30031987 --port=9903 --with-library=/Users/arbeo/Google\ Drive/Biblioteca\ de\ calibre/"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session
 [[ -s "$HOME/.nvm/nvm.sh" ]] && source "$HOME/.nvm/nvm.sh" # This loads NVM
