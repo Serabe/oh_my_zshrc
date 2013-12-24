@@ -54,3 +54,7 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export SPREE_DEV=~/programming/cc/spree
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+# Go
+export GOPATH=$HOME/programming/go
+PATH=$PATH:$GOPATH/bin
