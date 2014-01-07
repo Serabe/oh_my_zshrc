@@ -56,3 +56,6 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 # Go
 export GOPATH=$HOME/programming/go
 PATH=$PATH:$GOPATH/bin
+
+# PHP
+PHP_AUTOCONF=/usr/local/Cellar/nginx/1.4.4
