@@ -90,4 +90,4 @@ else
 fi
 
 # Vim mode for the win!
-set -o vi
+# set -o vi
