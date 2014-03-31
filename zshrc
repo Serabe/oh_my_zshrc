@@ -32,7 +32,7 @@ plugins=(brew bundler cabal capistrano coffee gem git heroku lein node npm postg
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/local/bin:/bin:/usr/local/sbin:/sbin:/usr/bin:/usr/X11/bin:/usr/texbin:$HOME/bin:$HOME/.cask/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:/bin:/usr/local/sbin:/sbin:/usr/bin:/usr/X11/bin:/usr/texbin:$HOME/.cask/bin:$PATH
 
 # Node.js
 
