@@ -26,7 +26,7 @@ ZSH_THEME="juanghurtado"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(bower brew bundler cabal capistrano coffee gem git heroku lein node npm postgres pow rails rvm)
+plugins=(brew bundler cabal capistrano coffee gem git heroku lein node npm postgres pow rails rvm)
 
 source $ZSH/oh-my-zsh.sh
 
